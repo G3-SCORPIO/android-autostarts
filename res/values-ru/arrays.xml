@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="faq">
+        <item>How does it work?</item>
+        <item>&lt;p>" Android allows applications to register for a variety of events supported by the system, to be started whenever such an event triggers. 
+
+This allows applications to do important work in the background, but may sometimes also slow down the system. 
+
+Autostarts helps you keep control over your phone by letting you know what goes on behind your back. "&lt;/p></item>
+        <item>Can I remove an application from a particular event?</item>
+        <item>Yes, but due to Android API limitations, it only works on rooted devices. &lt;b>Please be careful when disabling stuff.&lt;/b>" In particular note that the component in question may be responsible for other parts of the application's functionality than just the given event. As a result, you may experience unintended side effects. For the most part though, you can just give things a try, and enable the component again should the application break."</item>
+        <item>When I activate the \"show changed only\" filter, why do I see stuff that I never actually modified?</item>
+        <item>"Whether a component has changed (and is thus displayed in bold) is determined by looking at it's default state versus it's current state. It is possible for a component to be disabled "&lt;i>by default&lt;/i> after installation, but being activiated by the application itself once needed (for example after you use a specific feature or enable a setting the application).</item>
+        <item>Is it possible to know what a particular application does on a particular event?</item>
+        <item>No, not per se. However, if you select an entry, you will be able to see what the name of the &lt;i>component&lt;/i> is that handles the event. Sometimes, the name gives you a hint. For example, an &lt;i>AlarmInitReceiver&lt;/i>" would likely initialize the alarms or notification that you have enabled in the application. Don't be surprised then if this application's alarms stop working if you disable the component."</item>
+        <item>"I've disabled a component, but it seems to have it self enabled again after a while?"</item>
+        <item>Yes, applications may enable or disable their own components. Some do this depending on settings, or what features are enabled. Unfortunately, there is no workaround for this.</item>
+        <item>My Market downloads stopped working.</item>
+        <item>This is usually not the fault of &lt;i>Autostarts&lt;/i>", don't get ideas. However, there is one issue you might have run into. If you thought you weren't using Google Talk anyway and disabled it's "&lt;i>On Boot&lt;/i> event, this is likely to be the problem (it also occurs of you shutdown Google Talk using a task manager). Apparently, for some reason, if Google Talk is not running, market downloads do not work.</item>
+    </string-array>
+</resources>

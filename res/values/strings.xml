@@ -242,6 +242,7 @@
     <string name="act_appwidget_enabled_detail">Был добавлен первый экземпляр виджета.</string>
     <string name="act_appwidget_update">Виджет обновлён</string>
     <string name="act_appwidget_update_detail">"Запрос от виджета на обновление. Частота обновления зависит от приложения. Но никогда для виджетов, которые не используются.
+    
 "<b>Обратите внимание, что отключение этого события, возможно, сделает виджет неработоспособным.</b></string>
     <string name="act_appwidget_disabled">Виджет исключён</string>
     <string name="act_appwidget_disabled_detail">Последняя копия виджета удалена.</string>
@@ -394,6 +395,7 @@
     <string name="sys_disable">Вы хотите заблокировать системный компонент. Это может привести к нестабильной работе функции. Вы уверенны? Не делайте этого, если вы неуверены на сто процентов в работе компонента."</string>
     <string name="changing_state">Изменение %1$s...</string>
     <string name="state_change_failed">"Невозможно изменить состояние выбранного компонента %1$s (%2$s)
+    
 Вероятнее всего, ваше устройство не имеет Root доступа, который требуется для работы"</string>
     <string name="close_help">Закрыть и вернуться в список компонентов.</string>
     </resources>
